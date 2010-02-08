@@ -1,5 +1,28 @@
 tweetalytc
 Twitter user analytics JavaScript API.
+By Ryan Sandor Richards
+
+Getting Started
+
+In order to use the libraries provided in this package you must first include 
+jQuery (the Twitter adapter requires it to perform JSONP requests to the 
+Twitter API).
+
+You can download the newest version of jQuery at their website:
+
+	http://jquery.com
+
+Then simply include the JS files in the head or body of your
+HTML document in this order:
+
+<script type="text/javascript" src="[PATH TO JQUERY SCRIPT]"></script>
+<script type="text/javascript" src="javascripts/twitter.js"></script>
+<script type="text/javascript" src="javascripts/tweetalytc.js"></script>
+<script type="text/javascript" src="javascripts/googlechart.js"></script>
+
+Please read the in-source documentation for how to use the scripts in your
+project. Thanks for using tweetalytc!
+
 
 Copyright (c) 2010 Ryan Sandor Richards
 
